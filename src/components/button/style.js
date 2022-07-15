@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { background, fonts } from "../../style/theme";
+import { colors, fontSizes } from "../../style/theme";
 
 export const ButtonStyled = styled.button`
   width: ${(props) => props?.width || "160px"};
@@ -11,10 +11,10 @@ export const ButtonStyled = styled.button`
   align-items: ${(props) => props?.alignItems || "center"};
   border-radius: ${(props) => props?.radius || "4px"};
   margin: ${(props) => props.margin || "12px"};
-  background-color: ${(props) => background[props?.variant || "primary"]};
-  color: ${(props) => props?.color || "#FFFFFF"};
+  background-color: ${(props) => colors[props?.variant || "primary"]};
+  color: ${(props) => colors[props?.color || "light"]};
   font-weight: ${(props) => props?.weight || "500"};
-  font-size: ${(props) => fonts.text[props?.size || "normal"]};
+  font-size: ${(props) => fontSizes[props?.size || "normal"]};
   text-align: ${(props) => props?.textAlign || "center"};
 
   cursor: pointer;

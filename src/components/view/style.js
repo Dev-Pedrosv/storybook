@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { background } from "../../style/theme";
+import { colors } from "../../style/theme";
 
 export const ViewStyled = styled.div`
   width: ${(props) => props?.width || "100%"};
@@ -10,5 +10,5 @@ export const ViewStyled = styled.div`
   justify-content: ${(props) => props?.justify || "center"};
   align-items: ${(props) => props?.alignItems || "center"};
   border-radius: ${(props) => props?.radius || "0px"};
-  background-color: ${(props) => background[props?.variant || "gray50"]};
+  background-color: ${(props) => colors[props?.variant || "gray50"]};
 `;

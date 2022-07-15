@@ -1,4 +1,4 @@
-export const background = {
+export const colors = {
   primary: "#6200EE",
   secondary: "#03DAC6",
   light: "#FFFFFF",
@@ -11,14 +11,17 @@ export const background = {
   black: "#000000",
 };
 
-export const fonts = {
-  title: {
-    small: "22px",
-    normal: "30px",
-    big: "40px",
-  },
-  text: {
-    small: "13px",
-    normal: "17px",
-  },
+export const fontSizes = {
+  small: "8px",
+  smallMobile: "11px",
+  regularMobile: "12px",
+  default: "14px",
+  normal: "16px",
+  medium: "18px",
+  large: "20px",
+  h5: "24px",
+  h4: "32px",
+  h3: "40px",
+  h2: "48px",
+  h1: "56px",
 };
